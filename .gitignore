@@ -2,6 +2,8 @@
 *.exe
 *.dll
 
+__pycache__/
+
 # Ignorar carpetas
 /node_modules/
 /venv/

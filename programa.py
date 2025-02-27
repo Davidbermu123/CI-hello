@@ -13,12 +13,12 @@ def es_primo(n):
         i += 6
     return True
 
-# Entrada de usuario
-try:
-    num = int(input("Ingrese un número: "))
-    if es_primo(num):
-        print(f"{num} es un número primo.")
-    else:
-        print(f"{num} no es un número primo.")
-except ValueError:
-    print("Por favor, ingrese un número entero válido.")
+if __name__ == "__main__":
+    try:
+        num = int(input("Ingrese un número: "))
+        if es_primo(num):
+            print(f"{num} es un número primo.")
+        else:
+            print(f"{num} no es un número primo.")
+    except ValueError:
+        print("Por favor, ingrese un número entero válido.")
