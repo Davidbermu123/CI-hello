@@ -1,0 +1,10 @@
+# Ignorar archivos binarios
+*.exe
+*.dll
+
+# Ignorar carpetas
+/node_modules/
+/venv/
+
+# Ignorar archivos de configuración local
+.env
